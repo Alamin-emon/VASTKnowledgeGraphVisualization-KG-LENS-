@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # KG·LENS — Knowledge Graph Visual Analytics Interface
 ### VAST Challenge 2025 · Design Challenge · University of Pisa
 
@@ -110,3 +111,5 @@ entity type — the key design insight of this project.
 - Bertin, J. (1983). Semiology of Graphics.
 - Tax Justice Network Financial Secrecy Index 2022.
 - FATF (2022). Beneficial Ownership and Transparency Report.
+=======
+
