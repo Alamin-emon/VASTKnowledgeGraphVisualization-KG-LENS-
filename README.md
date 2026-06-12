@@ -110,5 +110,4 @@ entity type — the key design insight of this project.
 - Bertin, J. (1983). Semiology of Graphics.
 - Tax Justice Network Financial Secrecy Index 2022.
 - FATF (2022). Beneficial Ownership and Transparency Report.
-=======
 
