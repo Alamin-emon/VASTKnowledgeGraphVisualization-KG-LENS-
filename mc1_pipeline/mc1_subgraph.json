@@ -1,0 +1,2856 @@
+{
+ "meta": {
+  "source": "VAST Challenge 2025 MC1_graph.json",
+  "full_graph": {
+   "nodes": 17412,
+   "edges": 37857,
+   "node_types": {
+    "Song": 3615,
+    "Person": 11361,
+    "RecordLabel": 1217,
+    "Album": 996,
+    "MusicalGroup": 223
+   },
+   "edge_types": {
+    "InterpolatesFrom": 1574,
+    "RecordedBy": 3798,
+    "PerformerOf": 13587,
+    "ComposerOf": 3290,
+    "ProducerOf": 3209,
+    "InStyleOf": 2289,
+    "LyricalReferenceTo": 1496,
+    "CoverOf": 1429,
+    "DistributedBy": 3013,
+    "MemberOf": 568,
+    "LyricistOf": 2985,
+    "DirectlySamples": 619
+   }
+  },
+  "subgraph": {
+   "nodes": 90,
+   "edges": 113,
+   "communities_total": 94,
+   "anomalous_in_full_graph": 129,
+   "reversed_recordedby_count": 129
+  },
+  "top_genres": [
+   [
+    "Dream Pop",
+    742
+   ],
+   [
+    "Indie Folk",
+    450
+   ],
+   [
+    "Synthwave",
+    382
+   ],
+   [
+    "Doom Metal",
+    348
+   ],
+   [
+    "Oceanus Folk",
+    305
+   ],
+   [
+    "Alternative Rock",
+    258
+   ],
+   [
+    "Southern Gothic Rock",
+    242
+   ],
+   [
+    "Indie Rock",
+    208
+   ],
+   [
+    "Americana",
+    184
+   ],
+   [
+    "Psychedelic Rock",
+    172
+   ],
+   [
+    "Lo-Fi Electronica",
+    136
+   ],
+   [
+    "Indie Pop",
+    134
+   ]
+  ],
+  "oceanus_folk_timeline": [
+   [
+    1975,
+    0,
+    6
+   ],
+   [
+    1977,
+    0,
+    5
+   ],
+   [
+    1979,
+    0,
+    6
+   ],
+   [
+    1980,
+    0,
+    4
+   ],
+   [
+    1981,
+    0,
+    12
+   ],
+   [
+    1982,
+    0,
+    4
+   ],
+   [
+    1983,
+    0,
+    3
+   ],
+   [
+    1984,
+    0,
+    24
+   ],
+   [
+    1985,
+    0,
+    14
+   ],
+   [
+    1986,
+    0,
+    9
+   ],
+   [
+    1987,
+    0,
+    29
+   ],
+   [
+    1988,
+    0,
+    3
+   ],
+   [
+    1989,
+    0,
+    15
+   ],
+   [
+    1990,
+    0,
+    12
+   ],
+   [
+    1991,
+    0,
+    45
+   ],
+   [
+    1992,
+    1,
+    18
+   ],
+   [
+    1993,
+    3,
+    16
+   ],
+   [
+    1994,
+    3,
+    42
+   ],
+   [
+    1995,
+    5,
+    18
+   ],
+   [
+    1996,
+    0,
+    20
+   ],
+   [
+    1997,
+    2,
+    84
+   ],
+   [
+    1998,
+    0,
+    16
+   ],
+   [
+    1999,
+    2,
+    21
+   ],
+   [
+    2000,
+    1,
+    73
+   ],
+   [
+    2001,
+    3,
+    18
+   ],
+   [
+    2002,
+    0,
+    21
+   ],
+   [
+    2003,
+    0,
+    34
+   ],
+   [
+    2004,
+    7,
+    126
+   ],
+   [
+    2005,
+    3,
+    24
+   ],
+   [
+    2006,
+    0,
+    27
+   ],
+   [
+    2007,
+    3,
+    145
+   ],
+   [
+    2008,
+    2,
+    28
+   ],
+   [
+    2009,
+    2,
+    45
+   ],
+   [
+    2010,
+    12,
+    212
+   ],
+   [
+    2011,
+    1,
+    34
+   ],
+   [
+    2012,
+    0,
+    51
+   ],
+   [
+    2013,
+    19,
+    282
+   ],
+   [
+    2014,
+    2,
+    49
+   ],
+   [
+    2015,
+    0,
+    52
+   ],
+   [
+    2016,
+    2,
+    53
+   ],
+   [
+    2017,
+    21,
+    317
+   ],
+   [
+    2018,
+    0,
+    78
+   ],
+   [
+    2019,
+    1,
+    75
+   ],
+   [
+    2020,
+    19,
+    331
+   ],
+   [
+    2021,
+    3,
+    63
+   ],
+   [
+    2022,
+    5,
+    114
+   ],
+   [
+    2023,
+    34,
+    405
+   ],
+   [
+    2024,
+    13,
+    170
+   ],
+   [
+    2025,
+    11,
+    155
+   ],
+   [
+    2026,
+    25,
+    317
+   ]
+  ],
+  "type_mixing": {
+   "Song": {
+    "Song": 4719,
+    "RecordLabel": 5295,
+    "Album": 1105
+   },
+   "Person": {
+    "Song": 17105,
+    "MusicalGroup": 595,
+    "Album": 4763,
+    "Person": 2
+   },
+   "Album": {
+    "Album": 271,
+    "RecordLabel": 1413,
+    "Song": 1245
+   },
+   "MusicalGroup": {
+    "Song": 896,
+    "Album": 264,
+    "MusicalGroup": 34,
+    "Person": 5
+   },
+   "RecordLabel": {
+    "MusicalGroup": 27,
+    "Person": 15,
+    "Album": 102,
+    "Song": 1
+   }
+  }
+ },
+ "nodes": [
+  {
+   "id": "M5",
+   "label": "Unshackled Heart",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 2,
+   "conf": 0.81,
+   "lat": 35.1676,
+   "lng": -122.0436,
+   "anomaly": false,
+   "attrs": {
+    "single": false,
+    "release_date": "2026",
+    "genre": "Lo-Fi Electronica",
+    "notable": true,
+    "degree": 18
+   }
+  },
+  {
+   "id": "M9",
+   "label": "Colline-Cascade Studios",
+   "type": "Intermediary",
+   "mc1_type": "RecordLabel",
+   "cluster": 2,
+   "conf": 0.91,
+   "lat": 32.2524,
+   "lng": -120.458,
+   "anomaly": false,
+   "attrs": {
+    "degree": 57
+   }
+  },
+  {
+   "id": "M5643",
+   "label": "Farewell, My Heartache",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 2,
+   "conf": 0.83,
+   "lat": 35.944,
+   "lng": -116.8301,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2011",
+    "genre": "Lo-Fi Electronica",
+    "notable": true,
+    "degree": 23
+   }
+  },
+  {
+   "id": "M12821",
+   "label": "Droplets of Memory",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 3,
+   "conf": 0.77,
+   "lat": 51.994,
+   "lng": -0.9523,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "1991",
+    "genre": "Blues Rock",
+    "notable": true,
+    "degree": 11
+   }
+  },
+  {
+   "id": "M13342",
+   "label": "Unaccompanied Breath",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 3,
+   "conf": 0.76,
+   "lat": 48.232,
+   "lng": -1.4094,
+   "anomaly": false,
+   "attrs": {
+    "release_date": "2021",
+    "genre": "Oceanus Folk",
+    "notable": true,
+    "degree": 10
+   }
+  },
+  {
+   "id": "M9249",
+   "label": "Twilight of Resilience",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 1,
+   "conf": 0.79,
+   "lat": 38.4619,
+   "lng": -73.9632,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2013",
+    "genre": "Indie Folk",
+    "notable": true,
+    "degree": 13
+   }
+  },
+  {
+   "id": "M10793",
+   "label": "Miles From Where I Belong",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 3,
+   "conf": 0.76,
+   "lat": 45.0689,
+   "lng": -0.0571,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2013",
+    "genre": "Synthwave",
+    "notable": false,
+    "degree": 10
+   }
+  },
+  {
+   "id": "M7213",
+   "label": "Ephemeral Beauty's Embrace",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 1,
+   "conf": 0.79,
+   "lat": 41.9119,
+   "lng": -73.6465,
+   "anomaly": false,
+   "attrs": {
+    "release_date": "2029",
+    "genre": "Indie Folk",
+    "notoriety_date": "2036",
+    "notable": true,
+    "degree": 13
+   }
+  },
+  {
+   "id": "M16944",
+   "label": "Salt",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 0,
+   "conf": 0.72,
+   "lat": 49.2709,
+   "lng": 0.5863,
+   "anomaly": true,
+   "attrs": {
+    "release_date": "2035",
+    "genre": "Dream Pop",
+    "written_date": "2034",
+    "notable": true,
+    "degree": 6
+   }
+  },
+  {
+   "id": "M16945",
+   "label": "Neon Wasteland",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 0,
+   "conf": 0.72,
+   "lat": 53.9828,
+   "lng": -4.0758,
+   "anomaly": true,
+   "attrs": {
+    "release_date": "2033",
+    "genre": "Dream Pop",
+    "written_date": "2032",
+    "notable": false,
+    "degree": 6
+   }
+  },
+  {
+   "id": "M9780",
+   "label": "The Plaintive Pipe's Journey",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 0,
+   "conf": 0.78,
+   "lat": 53.954,
+   "lng": 1.4573,
+   "anomaly": false,
+   "attrs": {
+    "release_date": "2029",
+    "genre": "Dream Pop",
+    "notoriety_date": "2029",
+    "written_date": "2029",
+    "notable": true,
+    "degree": 12
+   }
+  },
+  {
+   "id": "M16953",
+   "label": "Ghosts in the Grain",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 0,
+   "conf": 0.72,
+   "lat": 50.2294,
+   "lng": -2.884,
+   "anomaly": true,
+   "attrs": {
+    "release_date": "2032",
+    "genre": "Indie Folk",
+    "written_date": "2031",
+    "notable": false,
+    "degree": 6
+   }
+  },
+  {
+   "id": "M16954",
+   "label": "The Last Transmission",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 0,
+   "conf": 0.74,
+   "lat": 55.1651,
+   "lng": -1.435,
+   "anomaly": true,
+   "attrs": {
+    "release_date": "2033",
+    "genre": "Indie Folk",
+    "written_date": "2032",
+    "notable": true,
+    "degree": 7
+   }
+  },
+  {
+   "id": "M2110",
+   "label": "Catherine Clay",
+   "type": "Person",
+   "mc1_type": "Person",
+   "cluster": 3,
+   "conf": 0.83,
+   "lat": 45.5986,
+   "lng": -0.8741,
+   "anomaly": false,
+   "attrs": {
+    "degree": 22
+   }
+  },
+  {
+   "id": "M11327",
+   "label": "Royal Reverence",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 2,
+   "conf": 0.83,
+   "lat": 36.8322,
+   "lng": -117.4139,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "1998",
+    "genre": "Lo-Fi Electronica",
+    "notable": true,
+    "degree": 23
+   }
+  },
+  {
+   "id": "M2111",
+   "label": "Chancel Resonance",
+   "type": "Intermediary",
+   "mc1_type": "RecordLabel",
+   "cluster": 3,
+   "conf": 0.8,
+   "lat": 51.3136,
+   "lng": 4.1901,
+   "anomaly": false,
+   "attrs": {
+    "degree": 15
+   }
+  },
+  {
+   "id": "M16961",
+   "label": "Neon Heartbeat",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 0,
+   "conf": 0.71,
+   "lat": 51.7972,
+   "lng": 3.6571,
+   "anomaly": true,
+   "attrs": {
+    "release_date": "2031",
+    "genre": "Synthwave",
+    "written_date": "2030",
+    "notable": false,
+    "degree": 5
+   }
+  },
+  {
+   "id": "M16962",
+   "label": "Cosmic Lullabies",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 0,
+   "conf": 0.69,
+   "lat": 50.5357,
+   "lng": 0.2885,
+   "anomaly": true,
+   "attrs": {
+    "release_date": "2035",
+    "genre": "Synthwave",
+    "written_date": "2034",
+    "notable": true,
+    "degree": 4
+   }
+  },
+  {
+   "id": "M16967",
+   "label": "Chapel of Ash",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 2,
+   "conf": 0.65,
+   "lat": 36.6874,
+   "lng": -117.2955,
+   "anomaly": true,
+   "attrs": {
+    "release_date": "2036",
+    "genre": "Doom Metal",
+    "written_date": "2035",
+    "notable": true,
+    "degree": 2
+   }
+  },
+  {
+   "id": "M16457",
+   "label": "Manger's Midnight",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 0,
+   "conf": 0.8,
+   "lat": 54.4011,
+   "lng": 0.491,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2021",
+    "genre": "Oceanus Folk",
+    "notable": true,
+    "degree": 15
+   }
+  },
+  {
+   "id": "M16972",
+   "label": "Glass Horizons",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 0,
+   "conf": 0.67,
+   "lat": 53.144,
+   "lng": -3.7612,
+   "anomaly": true,
+   "attrs": {
+    "release_date": "2039",
+    "genre": "Alternative Rock",
+    "written_date": "2038",
+    "notable": true,
+    "degree": 3
+   }
+  },
+  {
+   "id": "M16973",
+   "label": "Lies We Tell the Moon",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 0,
+   "conf": 0.65,
+   "lat": 49.3306,
+   "lng": -1.8127,
+   "anomaly": true,
+   "attrs": {
+    "release_date": "2037",
+    "genre": "Alternative Rock",
+    "written_date": "2036",
+    "notable": false,
+    "degree": 2
+   }
+  },
+  {
+   "id": "M15441",
+   "label": "Choreography of Forbidden Passion",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 0,
+   "conf": 0.79,
+   "lat": 48.1457,
+   "lng": -2.2655,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2017",
+    "genre": "Oceanus Folk",
+    "written_date": "2017",
+    "notable": true,
+    "degree": 14
+   }
+  },
+  {
+   "id": "M16978",
+   "label": "Serpents & Salvations",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 2,
+   "conf": 0.69,
+   "lat": 30.8602,
+   "lng": -120.0199,
+   "anomaly": true,
+   "attrs": {
+    "release_date": "2031",
+    "genre": "Southern Gothic Rock",
+    "written_date": "2030",
+    "notable": false,
+    "degree": 4
+   }
+  },
+  {
+   "id": "M16979",
+   "label": "Disco Apocalypse",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 2,
+   "conf": 0.69,
+   "lat": 35.1377,
+   "lng": -119.325,
+   "anomaly": true,
+   "attrs": {
+    "release_date": "2033",
+    "genre": "Southern Gothic Rock",
+    "written_date": "2032",
+    "notable": false,
+    "degree": 4
+   }
+  },
+  {
+   "id": "M16988",
+   "label": "Songs from the Drowned World",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 0,
+   "conf": 0.74,
+   "lat": 50.4688,
+   "lng": -2.4517,
+   "anomaly": true,
+   "attrs": {
+    "release_date": "2035",
+    "genre": "Oceanus Folk",
+    "written_date": "2034",
+    "notable": true,
+    "degree": 7
+   }
+  },
+  {
+   "id": "M16989",
+   "label": "Ballads for the End of Time",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 0,
+   "conf": 0.74,
+   "lat": 49.6432,
+   "lng": 3.3654,
+   "anomaly": true,
+   "attrs": {
+    "release_date": "2033",
+    "genre": "Oceanus Folk",
+    "written_date": "2032",
+    "notable": true,
+    "degree": 7
+   }
+  },
+  {
+   "id": "M16997",
+   "label": "Rust & Ruin",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 0,
+   "conf": 0.71,
+   "lat": 52.6917,
+   "lng": 0.7452,
+   "anomaly": true,
+   "attrs": {
+    "release_date": "2030",
+    "genre": "Americana",
+    "written_date": "2029",
+    "notable": false,
+    "degree": 5
+   }
+  },
+  {
+   "id": "M16998",
+   "label": "Glitches in the Rain",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 0,
+   "conf": 0.71,
+   "lat": 48.8765,
+   "lng": 1.7052,
+   "anomaly": true,
+   "attrs": {
+    "release_date": "2035",
+    "genre": "Americana",
+    "written_date": "2034",
+    "notable": false,
+    "degree": 5
+   }
+  },
+  {
+   "id": "M14439",
+   "label": "First Contact",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 2,
+   "conf": 0.82,
+   "lat": 31.3594,
+   "lng": -119.2081,
+   "anomaly": false,
+   "attrs": {
+    "single": false,
+    "release_date": "2029",
+    "genre": "Lo-Fi Electronica",
+    "notable": true,
+    "degree": 19
+   }
+  },
+  {
+   "id": "M2668",
+   "label": "Ping Tian",
+   "type": "Person",
+   "mc1_type": "Person",
+   "cluster": 2,
+   "conf": 0.84,
+   "lat": 37.9684,
+   "lng": -117.1237,
+   "anomaly": false,
+   "attrs": {
+    "degree": 25
+   }
+  },
+  {
+   "id": "M1140",
+   "label": "Party of One",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 2,
+   "conf": 0.82,
+   "lat": 34.5078,
+   "lng": -116.7668,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2018",
+    "genre": "Lo-Fi Electronica",
+    "notable": true,
+    "degree": 20
+   }
+  },
+  {
+   "id": "M2167",
+   "label": "Journey's Calling",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 2,
+   "conf": 0.82,
+   "lat": 36.795,
+   "lng": -116.0357,
+   "anomaly": false,
+   "attrs": {
+    "single": false,
+    "release_date": "2007",
+    "genre": "Lo-Fi Electronica",
+    "written_date": "2007",
+    "notable": true,
+    "degree": 20
+   }
+  },
+  {
+   "id": "M9861",
+   "label": "Stalemate",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 0,
+   "conf": 0.78,
+   "lat": 49.3398,
+   "lng": -3.871,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2026",
+    "genre": "Desert Rock",
+    "written_date": "2026",
+    "notable": true,
+    "degree": 12
+   }
+  },
+  {
+   "id": "M16524",
+   "label": "Trembling Syringe",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 0,
+   "conf": 0.84,
+   "lat": 50.031,
+   "lng": -1.9859,
+   "anomaly": false,
+   "attrs": {
+    "single": false,
+    "release_date": "2013",
+    "genre": "Oceanus Folk",
+    "written_date": "2013",
+    "notable": true,
+    "degree": 26
+   }
+  },
+  {
+   "id": "M652",
+   "label": "Rockville Records",
+   "type": "Intermediary",
+   "mc1_type": "RecordLabel",
+   "cluster": 2,
+   "conf": 0.86,
+   "lat": 31.7401,
+   "lng": -114.7004,
+   "anomaly": false,
+   "attrs": {
+    "degree": 31
+   }
+  },
+  {
+   "id": "M5777",
+   "label": "Standing Watch at Dawn's Edge",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 1,
+   "conf": 0.81,
+   "lat": 43.7237,
+   "lng": -75.4886,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2013",
+    "genre": "Indie Folk",
+    "notable": true,
+    "degree": 17
+   }
+  },
+  {
+   "id": "M10903",
+   "label": "Parallel Memories",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 0,
+   "conf": 0.78,
+   "lat": 52.7509,
+   "lng": -0.9627,
+   "anomaly": false,
+   "attrs": {
+    "single": false,
+    "release_date": "2028",
+    "genre": "Dream Pop",
+    "notable": true,
+    "degree": 12
+   }
+  },
+  {
+   "id": "M13985",
+   "label": "Seven Verses Before Dawn",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 2,
+   "conf": 0.82,
+   "lat": 37.3686,
+   "lng": -118.5729,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2013",
+    "genre": "Lo-Fi Electronica",
+    "notoriety_date": "2013",
+    "notable": true,
+    "degree": 20
+   }
+  },
+  {
+   "id": "M15017",
+   "label": "Echoes of the Puszta: Chamber Variations",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 0,
+   "conf": 0.79,
+   "lat": 49.6264,
+   "lng": -2.1548,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2023",
+    "genre": "Oceanus Folk",
+    "notable": true,
+    "degree": 13
+   }
+  },
+  {
+   "id": "M11945",
+   "label": "Bullet Train to Brilliance",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 1,
+   "conf": 0.8,
+   "lat": 41.2037,
+   "lng": -75.9041,
+   "anomaly": false,
+   "attrs": {
+    "single": false,
+    "release_date": "2007",
+    "genre": "Doom Metal",
+    "notable": true,
+    "degree": 16
+   }
+  },
+  {
+   "id": "M4781",
+   "label": "September's Last Embrace",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 2,
+   "conf": 0.85,
+   "lat": 34.7289,
+   "lng": -115.0611,
+   "anomaly": false,
+   "attrs": {
+    "single": false,
+    "release_date": "2003",
+    "genre": "Lo-Fi Electronica",
+    "notable": true,
+    "degree": 27
+   }
+  },
+  {
+   "id": "M174",
+   "label": "Echo Chamber Records",
+   "type": "Intermediary",
+   "mc1_type": "RecordLabel",
+   "cluster": 1,
+   "conf": 0.99,
+   "lat": 39.908,
+   "lng": -76.2514,
+   "anomaly": false,
+   "attrs": {
+    "degree": 130
+   }
+  },
+  {
+   "id": "M10928",
+   "label": "Whispers in the Shadows",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 1,
+   "conf": 0.85,
+   "lat": 44.6931,
+   "lng": -73.9298,
+   "anomaly": false,
+   "attrs": {
+    "release_date": "2022",
+    "genre": "Dream Pop",
+    "notable": false,
+    "degree": 28
+   }
+  },
+  {
+   "id": "M10417",
+   "label": "Carnival Whispers",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 2,
+   "conf": 0.84,
+   "lat": 30.7795,
+   "lng": -121.8668,
+   "anomaly": false,
+   "attrs": {
+    "single": false,
+    "release_date": "2010",
+    "genre": "Lo-Fi Electronica",
+    "notoriety_date": "2010",
+    "notable": true,
+    "degree": 24
+   }
+  },
+  {
+   "id": "M14512",
+   "label": "Silk and Sunflowers",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 2,
+   "conf": 0.82,
+   "lat": 30.9294,
+   "lng": -117.2241,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "1997",
+    "genre": "Lo-Fi Electronica",
+    "notable": true,
+    "degree": 19
+   }
+  },
+  {
+   "id": "M5826",
+   "label": "Mirror of Affection",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 0,
+   "conf": 0.81,
+   "lat": 53.844,
+   "lng": -0.7505,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2020",
+    "genre": "Desert Rock",
+    "notable": true,
+    "degree": 17
+   }
+  },
+  {
+   "id": "M12998",
+   "label": "Purified by Divine Light",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 3,
+   "conf": 0.78,
+   "lat": 45.3648,
+   "lng": 1.4052,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "1994",
+    "genre": "Dream Pop",
+    "notable": true,
+    "degree": 12
+   }
+  },
+  {
+   "id": "M4299",
+   "label": "\u00daltimo intento (Last attempt)",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 0,
+   "conf": 0.79,
+   "lat": 55.4764,
+   "lng": 0.1051,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2030",
+    "genre": "Desert Rock",
+    "notable": false,
+    "degree": 13
+   }
+  },
+  {
+   "id": "M218",
+   "label": "Kamiogawa Rhythms",
+   "type": "Intermediary",
+   "mc1_type": "RecordLabel",
+   "cluster": 3,
+   "conf": 0.95,
+   "lat": 52.6252,
+   "lng": 5.2384,
+   "anomaly": false,
+   "attrs": {
+    "degree": 89
+   }
+  },
+  {
+   "id": "M743",
+   "label": "Archival Imprints",
+   "type": "Intermediary",
+   "mc1_type": "RecordLabel",
+   "cluster": 2,
+   "conf": 0.86,
+   "lat": 30.144,
+   "lng": -116.4779,
+   "anomaly": false,
+   "attrs": {
+    "degree": 30
+   }
+  },
+  {
+   "id": "M232",
+   "label": "Garenne Sound",
+   "type": "Intermediary",
+   "mc1_type": "RecordLabel",
+   "cluster": 1,
+   "conf": 0.8,
+   "lat": 42.1665,
+   "lng": -73.7102,
+   "anomaly": false,
+   "attrs": {
+    "degree": 15
+   }
+  },
+  {
+   "id": "M13563",
+   "label": "Unique Frequencies",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 1,
+   "conf": 0.84,
+   "lat": 38.8474,
+   "lng": -72.8783,
+   "anomaly": false,
+   "attrs": {
+    "release_date": "2017",
+    "genre": "Synthpop",
+    "notable": true,
+    "degree": 26
+   }
+  },
+  {
+   "id": "M9474",
+   "label": "Tread Defiant",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 3,
+   "conf": 0.77,
+   "lat": 45.749,
+   "lng": 1.8303,
+   "anomaly": false,
+   "attrs": {
+    "single": false,
+    "release_date": "2026",
+    "genre": "Dream Pop",
+    "notoriety_date": "2026",
+    "written_date": "2026",
+    "notable": true,
+    "degree": 11
+   }
+  },
+  {
+   "id": "M13574",
+   "label": "Can You Spell Out Your Desire?",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 1,
+   "conf": 0.83,
+   "lat": 40.3426,
+   "lng": -70.3755,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2008",
+    "genre": "Synthwave",
+    "written_date": "2008",
+    "notable": true,
+    "degree": 21
+   }
+  },
+  {
+   "id": "M11526",
+   "label": "Ballad of the Lone Shepherd",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 1,
+   "conf": 0.78,
+   "lat": 43.7196,
+   "lng": -75.8989,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2019",
+    "genre": "Psychedelic Rock",
+    "notable": true,
+    "degree": 12
+   }
+  },
+  {
+   "id": "M11014",
+   "label": "Wilderness Melody: A Park's Harmony",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 3,
+   "conf": 0.77,
+   "lat": 48.8613,
+   "lng": -0.2186,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2017",
+    "genre": "Indie Folk",
+    "notoriety_date": "2017",
+    "notable": true,
+    "degree": 11
+   }
+  },
+  {
+   "id": "M4361",
+   "label": "Presente Imperfetto (Imperfect Present)",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 3,
+   "conf": 0.76,
+   "lat": 52.1576,
+   "lng": 5.3163,
+   "anomaly": false,
+   "attrs": {
+    "release_date": "2013",
+    "genre": "Dream Pop",
+    "notable": true,
+    "degree": 10
+   }
+  },
+  {
+   "id": "M16653",
+   "label": "Golden Hours",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 3,
+   "conf": 0.78,
+   "lat": 47.2442,
+   "lng": 3.4638,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2023",
+    "genre": "Dream Pop",
+    "notable": true,
+    "degree": 12
+   }
+  },
+  {
+   "id": "M5908",
+   "label": "Georges Besnard",
+   "type": "Person",
+   "mc1_type": "Person",
+   "cluster": 3,
+   "conf": 0.77,
+   "lat": 49.7284,
+   "lng": -0.4251,
+   "anomaly": false,
+   "attrs": {
+    "degree": 11
+   }
+  },
+  {
+   "id": "M3376",
+   "label": "Rapid Heartbeat",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 1,
+   "conf": 0.8,
+   "lat": 42.8129,
+   "lng": -73.691,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2013",
+    "genre": "Desert Rock",
+    "notable": true,
+    "degree": 15
+   }
+  },
+  {
+   "id": "M1841",
+   "label": "Ripples and Whispers",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 0,
+   "conf": 0.99,
+   "lat": 53.7364,
+   "lng": 0.115,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2010",
+    "genre": "Indie Folk",
+    "notable": true,
+    "degree": 148
+   }
+  },
+  {
+   "id": "M14128",
+   "label": "Factory Floor Symphony",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 3,
+   "conf": 0.78,
+   "lat": 44.8612,
+   "lng": 0.9454,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "1994",
+    "genre": "Blues Rock",
+    "notable": true,
+    "degree": 12
+   }
+  },
+  {
+   "id": "M14136",
+   "label": "Sonnets of the Heart",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 1,
+   "conf": 0.81,
+   "lat": 36.8686,
+   "lng": -70.5732,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2013",
+    "genre": "Doom Metal",
+    "written_date": "2007",
+    "notable": true,
+    "degree": 17
+   }
+  },
+  {
+   "id": "M827",
+   "label": "When Pigs Fly",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 2,
+   "conf": 0.91,
+   "lat": 37.082,
+   "lng": -115.5904,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2006",
+    "genre": "Lo-Fi Electronica",
+    "notable": true,
+    "degree": 54
+   }
+  },
+  {
+   "id": "M11583",
+   "label": "Veiled Intentions",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 1,
+   "conf": 0.78,
+   "lat": 39.1729,
+   "lng": -77.5426,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2030",
+    "genre": "Synthwave",
+    "notable": true,
+    "degree": 12
+   }
+  },
+  {
+   "id": "M1346",
+   "label": "Xiuying Huang",
+   "type": "Person",
+   "mc1_type": "Person",
+   "cluster": 1,
+   "conf": 0.78,
+   "lat": 43.7369,
+   "lng": -70.4304,
+   "anomaly": false,
+   "attrs": {
+    "degree": 12
+   }
+  },
+  {
+   "id": "M12617",
+   "label": "Forbidden Terrain",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 1,
+   "conf": 0.78,
+   "lat": 37.398,
+   "lng": -74.1181,
+   "anomaly": false,
+   "attrs": {
+    "single": false,
+    "release_date": "2020",
+    "genre": "Americana",
+    "notable": true,
+    "degree": 12
+   }
+  },
+  {
+   "id": "M4937",
+   "label": "Priceless Heart",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 3,
+   "conf": 0.78,
+   "lat": 45.4103,
+   "lng": 4.437,
+   "anomaly": false,
+   "attrs": {
+    "release_date": "2000",
+    "genre": "Southern Gothic Rock",
+    "notable": false,
+    "degree": 12
+   }
+  },
+  {
+   "id": "M14670",
+   "label": "Proximity of the Heart",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 3,
+   "conf": 0.83,
+   "lat": 50.9833,
+   "lng": -0.6207,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "1984",
+    "genre": "Alternative Rock",
+    "notable": true,
+    "degree": 23
+   }
+  },
+  {
+   "id": "M3407",
+   "label": "Splitting the Difference",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 1,
+   "conf": 0.79,
+   "lat": 40.5151,
+   "lng": -73.6076,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "1987",
+    "genre": "Southern Gothic Rock",
+    "written_date": "1987",
+    "notable": true,
+    "degree": 13
+   }
+  },
+  {
+   "id": "M4436",
+   "label": "Mandarin Memories",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 3,
+   "conf": 0.8,
+   "lat": 46.9771,
+   "lng": 5.3317,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2020",
+    "genre": "Indie Rock",
+    "written_date": "2020",
+    "notable": true,
+    "degree": 15
+   }
+  },
+  {
+   "id": "M10071",
+   "label": "Shadows of Unbearable Silence",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 3,
+   "conf": 0.76,
+   "lat": 48.2417,
+   "lng": 0.0466,
+   "anomaly": false,
+   "attrs": {
+    "single": false,
+    "release_date": "2027",
+    "genre": "Dream Pop",
+    "notable": true,
+    "degree": 10
+   }
+  },
+  {
+   "id": "M10596",
+   "label": "Roots Between Worlds",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 1,
+   "conf": 0.8,
+   "lat": 41.0272,
+   "lng": -72.1666,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2013",
+    "genre": "Indie Folk",
+    "notable": true,
+    "degree": 15
+   }
+  },
+  {
+   "id": "M12138",
+   "label": "Unbreakable Divine Shelter",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 0,
+   "conf": 0.79,
+   "lat": 49.1166,
+   "lng": -1.6341,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2030",
+    "genre": "Oceanus Folk",
+    "written_date": "2030",
+    "notable": true,
+    "degree": 13
+   }
+  },
+  {
+   "id": "M878",
+   "label": "Jing Kang",
+   "type": "Person",
+   "mc1_type": "Person",
+   "cluster": 2,
+   "conf": 0.82,
+   "lat": 38.0134,
+   "lng": -117.0447,
+   "anomaly": false,
+   "attrs": {
+    "degree": 19
+   }
+  },
+  {
+   "id": "M879",
+   "label": "Verdant Horizon",
+   "type": "Intermediary",
+   "mc1_type": "RecordLabel",
+   "cluster": 2,
+   "conf": 0.88,
+   "lat": 33.557,
+   "lng": -118.1031,
+   "anomaly": false,
+   "attrs": {
+    "degree": 38
+   }
+  },
+  {
+   "id": "M9587",
+   "label": "Dawn's First Whisper",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 0,
+   "conf": 0.8,
+   "lat": 48.4754,
+   "lng": -2.3302,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2028",
+    "genre": "Space Rock",
+    "written_date": "2028",
+    "notable": true,
+    "degree": 15
+   }
+  },
+  {
+   "id": "M884",
+   "label": "Haute-Corse Records",
+   "type": "Intermediary",
+   "mc1_type": "RecordLabel",
+   "cluster": 0,
+   "conf": 0.82,
+   "lat": 50.2121,
+   "lng": 0.5787,
+   "anomaly": false,
+   "attrs": {
+    "degree": 20
+   }
+  },
+  {
+   "id": "M12150",
+   "label": "Sing Song Swing",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 1,
+   "conf": 0.8,
+   "lat": 38.5537,
+   "lng": -76.2443,
+   "anomaly": false,
+   "attrs": {
+    "single": false,
+    "release_date": "2007",
+    "genre": "Indie Folk",
+    "notoriety_date": "2007",
+    "notable": true,
+    "degree": 16
+   }
+  },
+  {
+   "id": "M6008",
+   "label": "Redeemed by Boundless Love",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 1,
+   "conf": 0.8,
+   "lat": 37.2807,
+   "lng": -72.9572,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2017",
+    "genre": "Indie Rock",
+    "written_date": "2010",
+    "notable": true,
+    "degree": 16
+   }
+  },
+  {
+   "id": "M7036",
+   "label": "Voz Sin Eco",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 3,
+   "conf": 0.76,
+   "lat": 46.6881,
+   "lng": 5.5956,
+   "anomaly": false,
+   "attrs": {
+    "single": false,
+    "release_date": "1987",
+    "genre": "Indie Pop",
+    "notable": true,
+    "degree": 10
+   }
+  },
+  {
+   "id": "M14720",
+   "label": "Crimson Ledger of the Desert Riders",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 0,
+   "conf": 0.8,
+   "lat": 54.3845,
+   "lng": -3.5609,
+   "anomaly": false,
+   "attrs": {
+    "single": false,
+    "release_date": "2023",
+    "genre": "Oceanus Folk",
+    "notable": true,
+    "degree": 15
+   }
+  },
+  {
+   "id": "M4992",
+   "label": "Carnival's Pulse",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 3,
+   "conf": 0.76,
+   "lat": 46.7606,
+   "lng": 3.704,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "1997",
+    "genre": "Indie Pop",
+    "notable": true,
+    "degree": 10
+   }
+  },
+  {
+   "id": "M9090",
+   "label": "Palms of Passage",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 0,
+   "conf": 0.79,
+   "lat": 49.2213,
+   "lng": -3.0693,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2028",
+    "genre": "Oceanus Folk",
+    "notable": true,
+    "degree": 14
+   }
+  },
+  {
+   "id": "M12678",
+   "label": "The Last Horizon",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 1,
+   "conf": 0.84,
+   "lat": 44.1969,
+   "lng": -73.4377,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2013",
+    "genre": "Synthwave",
+    "notable": true,
+    "degree": 24
+   }
+  },
+  {
+   "id": "M9096",
+   "label": "Grip and Grace",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 0,
+   "conf": 0.8,
+   "lat": 51.2888,
+   "lng": 2.1492,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2017",
+    "genre": "Oceanus Folk",
+    "written_date": "2013",
+    "notable": true,
+    "degree": 16
+   }
+  },
+  {
+   "id": "M15760",
+   "label": "Existential Riddle",
+   "type": "Asset",
+   "mc1_type": "Album",
+   "cluster": 1,
+   "conf": 0.78,
+   "lat": 43.1728,
+   "lng": -76.4827,
+   "anomaly": false,
+   "attrs": {
+    "release_date": "2026",
+    "genre": "Synthwave",
+    "written_date": "2026",
+    "notable": true,
+    "degree": 12
+   }
+  },
+  {
+   "id": "M12694",
+   "label": "Whispers of Karelian Forests",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 0,
+   "conf": 0.78,
+   "lat": 48.2828,
+   "lng": -0.6794,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2029",
+    "genre": "Dream Pop",
+    "notable": true,
+    "degree": 12
+   }
+  },
+  {
+   "id": "M15254",
+   "label": "Crown and Country's Heartbeat",
+   "type": "Asset",
+   "mc1_type": "Song",
+   "cluster": 3,
+   "conf": 0.76,
+   "lat": 48.2452,
+   "lng": 2.0884,
+   "anomaly": false,
+   "attrs": {
+    "single": true,
+    "release_date": "2024",
+    "genre": "Dream Pop",
+    "notoriety_date": "2024",
+    "notable": true,
+    "degree": 10
+   }
+  }
+ ],
+ "edges": [
+  {
+   "source": "M5",
+   "target": "M827",
+   "rel": "CoverOf",
+   "conf": 0.86,
+   "type": "inferred",
+   "year": 2026
+  },
+  {
+   "source": "M5",
+   "target": "M10417",
+   "rel": "InStyleOf",
+   "conf": 0.82,
+   "type": "uncertain",
+   "year": 2026
+  },
+  {
+   "source": "M5",
+   "target": "M13985",
+   "rel": "InterpolatesFrom",
+   "conf": 0.81,
+   "type": "uncertain",
+   "year": 2026
+  },
+  {
+   "source": "M5",
+   "target": "M9",
+   "rel": "DistributedBy",
+   "conf": 0.86,
+   "type": "known",
+   "year": 2026
+  },
+  {
+   "source": "M827",
+   "target": "M11327",
+   "rel": "InStyleOf",
+   "conf": 0.87,
+   "type": "uncertain",
+   "year": 2006
+  },
+  {
+   "source": "M827",
+   "target": "M14512",
+   "rel": "DirectlySamples",
+   "conf": 0.86,
+   "type": "anomaly",
+   "year": 2006
+  },
+  {
+   "source": "M827",
+   "target": "M743",
+   "rel": "DistributedBy",
+   "conf": 0.89,
+   "type": "known",
+   "year": 2006
+  },
+  {
+   "source": "M878",
+   "target": "M2167",
+   "rel": "PerformerOf",
+   "conf": 0.82,
+   "type": "known",
+   "year": 2007
+  },
+  {
+   "source": "M878",
+   "target": "M13985",
+   "rel": "PerformerOf",
+   "conf": 0.82,
+   "type": "known",
+   "year": 2013
+  },
+  {
+   "source": "M878",
+   "target": "M13985",
+   "rel": "ProducerOf",
+   "conf": 0.82,
+   "type": "known",
+   "year": 2013
+  },
+  {
+   "source": "M1140",
+   "target": "M827",
+   "rel": "InterpolatesFrom",
+   "conf": 0.86,
+   "type": "uncertain",
+   "year": 2018
+  },
+  {
+   "source": "M1140",
+   "target": "M11327",
+   "rel": "DirectlySamples",
+   "conf": 0.82,
+   "type": "anomaly",
+   "year": 2018
+  },
+  {
+   "source": "M1140",
+   "target": "M4781",
+   "rel": "DirectlySamples",
+   "conf": 0.83,
+   "type": "anomaly",
+   "year": 2018
+  },
+  {
+   "source": "M1140",
+   "target": "M14512",
+   "rel": "InStyleOf",
+   "conf": 0.82,
+   "type": "uncertain",
+   "year": 2018
+  },
+  {
+   "source": "M2110",
+   "target": "M4361",
+   "rel": "PerformerOf",
+   "conf": 0.79,
+   "type": "known",
+   "year": 2013
+  },
+  {
+   "source": "M2110",
+   "target": "M4361",
+   "rel": "ProducerOf",
+   "conf": 0.79,
+   "type": "known",
+   "year": 2013
+  },
+  {
+   "source": "M2110",
+   "target": "M14670",
+   "rel": "ComposerOf",
+   "conf": 0.83,
+   "type": "known",
+   "year": 1984
+  },
+  {
+   "source": "M2110",
+   "target": "M14670",
+   "rel": "PerformerOf",
+   "conf": 0.83,
+   "type": "known",
+   "year": 1984
+  },
+  {
+   "source": "M2167",
+   "target": "M14512",
+   "rel": "CoverOf",
+   "conf": 0.82,
+   "type": "inferred",
+   "year": 2007
+  },
+  {
+   "source": "M2167",
+   "target": "M4781",
+   "rel": "InStyleOf",
+   "conf": 0.83,
+   "type": "uncertain",
+   "year": 2007
+  },
+  {
+   "source": "M2167",
+   "target": "M879",
+   "rel": "RecordedBy",
+   "conf": 0.85,
+   "type": "known",
+   "year": 2007
+  },
+  {
+   "source": "M4299",
+   "target": "M15441",
+   "rel": "InStyleOf",
+   "conf": 0.79,
+   "type": "uncertain",
+   "year": 2017
+  },
+  {
+   "source": "M4299",
+   "target": "M1841",
+   "rel": "DirectlySamples",
+   "conf": 0.89,
+   "type": "anomaly",
+   "year": 2010
+  },
+  {
+   "source": "M4361",
+   "target": "M14670",
+   "rel": "InStyleOf",
+   "conf": 0.79,
+   "type": "uncertain",
+   "year": 2013
+  },
+  {
+   "source": "M4361",
+   "target": "M12998",
+   "rel": "CoverOf",
+   "conf": 0.77,
+   "type": "inferred",
+   "year": 2013
+  },
+  {
+   "source": "M4361",
+   "target": "M2111",
+   "rel": "DistributedBy",
+   "conf": 0.78,
+   "type": "known",
+   "year": 2013
+  },
+  {
+   "source": "M4436",
+   "target": "M218",
+   "rel": "DistributedBy",
+   "conf": 0.88,
+   "type": "known",
+   "year": 2020
+  },
+  {
+   "source": "M4937",
+   "target": "M4992",
+   "rel": "CoverOf",
+   "conf": 0.77,
+   "type": "inferred",
+   "year": 2000
+  },
+  {
+   "source": "M4937",
+   "target": "M7036",
+   "rel": "LyricalReferenceTo",
+   "conf": 0.77,
+   "type": "inferred",
+   "year": 2000
+  },
+  {
+   "source": "M4937",
+   "target": "M218",
+   "rel": "RecordedBy",
+   "conf": 0.86,
+   "type": "known",
+   "year": 2000
+  },
+  {
+   "source": "M4992",
+   "target": "M7036",
+   "rel": "InterpolatesFrom",
+   "conf": 0.76,
+   "type": "uncertain",
+   "year": 1997
+  },
+  {
+   "source": "M5643",
+   "target": "M4781",
+   "rel": "LyricalReferenceTo",
+   "conf": 0.84,
+   "type": "inferred",
+   "year": 2011
+  },
+  {
+   "source": "M5643",
+   "target": "M827",
+   "rel": "InterpolatesFrom",
+   "conf": 0.87,
+   "type": "uncertain",
+   "year": 2011
+  },
+  {
+   "source": "M5643",
+   "target": "M2167",
+   "rel": "InterpolatesFrom",
+   "conf": 0.82,
+   "type": "uncertain",
+   "year": 2011
+  },
+  {
+   "source": "M5777",
+   "target": "M232",
+   "rel": "RecordedBy",
+   "conf": 0.81,
+   "type": "known",
+   "year": 2013
+  },
+  {
+   "source": "M5777",
+   "target": "M232",
+   "rel": "DistributedBy",
+   "conf": 0.81,
+   "type": "known",
+   "year": 2013
+  },
+  {
+   "source": "M5908",
+   "target": "M14670",
+   "rel": "PerformerOf",
+   "conf": 0.8,
+   "type": "known",
+   "year": 1984
+  },
+  {
+   "source": "M6008",
+   "target": "M174",
+   "rel": "RecordedBy",
+   "conf": 0.9,
+   "type": "known",
+   "year": 2017
+  },
+  {
+   "source": "M6008",
+   "target": "M174",
+   "rel": "DistributedBy",
+   "conf": 0.9,
+   "type": "known",
+   "year": 2017
+  },
+  {
+   "source": "M7036",
+   "target": "M218",
+   "rel": "RecordedBy",
+   "conf": 0.85,
+   "type": "known",
+   "year": 1987
+  },
+  {
+   "source": "M7036",
+   "target": "M218",
+   "rel": "DistributedBy",
+   "conf": 0.85,
+   "type": "known",
+   "year": 1987
+  },
+  {
+   "source": "M7213",
+   "target": "M10928",
+   "rel": "CoverOf",
+   "conf": 0.82,
+   "type": "inferred",
+   "year": 2022
+  },
+  {
+   "source": "M7213",
+   "target": "M11583",
+   "rel": "InStyleOf",
+   "conf": 0.79,
+   "type": "uncertain",
+   "year": null
+  },
+  {
+   "source": "M7213",
+   "target": "M174",
+   "rel": "RecordedBy",
+   "conf": 0.89,
+   "type": "known",
+   "year": null
+  },
+  {
+   "source": "M7213",
+   "target": "M174",
+   "rel": "DistributedBy",
+   "conf": 0.89,
+   "type": "known",
+   "year": null
+  },
+  {
+   "source": "M9090",
+   "target": "M5826",
+   "rel": "InStyleOf",
+   "conf": 0.8,
+   "type": "uncertain",
+   "year": 2020
+  },
+  {
+   "source": "M9090",
+   "target": "M1841",
+   "rel": "InStyleOf",
+   "conf": 0.89,
+   "type": "uncertain",
+   "year": 2010
+  },
+  {
+   "source": "M9090",
+   "target": "M879",
+   "rel": "RecordedBy",
+   "conf": 0.83,
+   "type": "known",
+   "year": null
+  },
+  {
+   "source": "M9090",
+   "target": "M879",
+   "rel": "DistributedBy",
+   "conf": 0.83,
+   "type": "known",
+   "year": null
+  },
+  {
+   "source": "M9096",
+   "target": "M1841",
+   "rel": "DirectlySamples",
+   "conf": 0.9,
+   "type": "anomaly",
+   "year": 2017
+  },
+  {
+   "source": "M9249",
+   "target": "M174",
+   "rel": "RecordedBy",
+   "conf": 0.89,
+   "type": "known",
+   "year": 2013
+  },
+  {
+   "source": "M9249",
+   "target": "M174",
+   "rel": "DistributedBy",
+   "conf": 0.89,
+   "type": "known",
+   "year": 2013
+  },
+  {
+   "source": "M9474",
+   "target": "M4361",
+   "rel": "LyricalReferenceTo",
+   "conf": 0.77,
+   "type": "inferred",
+   "year": 2026
+  },
+  {
+   "source": "M9474",
+   "target": "M14670",
+   "rel": "LyricalReferenceTo",
+   "conf": 0.8,
+   "type": "inferred",
+   "year": 2026
+  },
+  {
+   "source": "M9474",
+   "target": "M12998",
+   "rel": "CoverOf",
+   "conf": 0.78,
+   "type": "inferred",
+   "year": 2026
+  },
+  {
+   "source": "M10071",
+   "target": "M218",
+   "rel": "RecordedBy",
+   "conf": 0.85,
+   "type": "known",
+   "year": null
+  },
+  {
+   "source": "M10071",
+   "target": "M218",
+   "rel": "DistributedBy",
+   "conf": 0.85,
+   "type": "known",
+   "year": null
+  },
+  {
+   "source": "M10417",
+   "target": "M4781",
+   "rel": "InStyleOf",
+   "conf": 0.84,
+   "type": "uncertain",
+   "year": 2010
+  },
+  {
+   "source": "M10417",
+   "target": "M827",
+   "rel": "InterpolatesFrom",
+   "conf": 0.88,
+   "type": "uncertain",
+   "year": 2010
+  },
+  {
+   "source": "M10793",
+   "target": "M218",
+   "rel": "RecordedBy",
+   "conf": 0.85,
+   "type": "known",
+   "year": 2013
+  },
+  {
+   "source": "M10903",
+   "target": "M9096",
+   "rel": "CoverOf",
+   "conf": 0.79,
+   "type": "inferred",
+   "year": 2017
+  },
+  {
+   "source": "M10903",
+   "target": "M1841",
+   "rel": "InterpolatesFrom",
+   "conf": 0.89,
+   "type": "uncertain",
+   "year": 2010
+  },
+  {
+   "source": "M10928",
+   "target": "M174",
+   "rel": "RecordedBy",
+   "conf": 0.92,
+   "type": "known",
+   "year": 2022
+  },
+  {
+   "source": "M10928",
+   "target": "M174",
+   "rel": "DistributedBy",
+   "conf": 0.92,
+   "type": "known",
+   "year": 2022
+  },
+  {
+   "source": "M11014",
+   "target": "M218",
+   "rel": "RecordedBy",
+   "conf": 0.86,
+   "type": "known",
+   "year": 2017
+  },
+  {
+   "source": "M11526",
+   "target": "M174",
+   "rel": "RecordedBy",
+   "conf": 0.89,
+   "type": "known",
+   "year": 2019
+  },
+  {
+   "source": "M11526",
+   "target": "M174",
+   "rel": "DistributedBy",
+   "conf": 0.89,
+   "type": "known",
+   "year": 2019
+  },
+  {
+   "source": "M11583",
+   "target": "M10928",
+   "rel": "InStyleOf",
+   "conf": 0.81,
+   "type": "uncertain",
+   "year": 2022
+  },
+  {
+   "source": "M11583",
+   "target": "M174",
+   "rel": "RecordedBy",
+   "conf": 0.89,
+   "type": "known",
+   "year": null
+  },
+  {
+   "source": "M11945",
+   "target": "M232",
+   "rel": "RecordedBy",
+   "conf": 0.8,
+   "type": "known",
+   "year": 2007
+  },
+  {
+   "source": "M12150",
+   "target": "M174",
+   "rel": "RecordedBy",
+   "conf": 0.9,
+   "type": "known",
+   "year": 2007
+  },
+  {
+   "source": "M12150",
+   "target": "M174",
+   "rel": "DistributedBy",
+   "conf": 0.9,
+   "type": "known",
+   "year": 2007
+  },
+  {
+   "source": "M12821",
+   "target": "M218",
+   "rel": "RecordedBy",
+   "conf": 0.86,
+   "type": "known",
+   "year": 1991
+  },
+  {
+   "source": "M12821",
+   "target": "M218",
+   "rel": "DistributedBy",
+   "conf": 0.86,
+   "type": "known",
+   "year": 1991
+  },
+  {
+   "source": "M12998",
+   "target": "M14670",
+   "rel": "LyricalReferenceTo",
+   "conf": 0.8,
+   "type": "inferred",
+   "year": 1994
+  },
+  {
+   "source": "M13342",
+   "target": "M10793",
+   "rel": "InterpolatesFrom",
+   "conf": 0.76,
+   "type": "uncertain",
+   "year": 2021
+  },
+  {
+   "source": "M13342",
+   "target": "M218",
+   "rel": "DistributedBy",
+   "conf": 0.85,
+   "type": "known",
+   "year": 2021
+  },
+  {
+   "source": "M13563",
+   "target": "M1841",
+   "rel": "InStyleOf",
+   "conf": 0.92,
+   "type": "uncertain",
+   "year": 2017
+  },
+  {
+   "source": "M13563",
+   "target": "M11945",
+   "rel": "InterpolatesFrom",
+   "conf": 0.82,
+   "type": "uncertain",
+   "year": 2017
+  },
+  {
+   "source": "M13563",
+   "target": "M174",
+   "rel": "RecordedBy",
+   "conf": 0.92,
+   "type": "known",
+   "year": 2017
+  },
+  {
+   "source": "M13563",
+   "target": "M174",
+   "rel": "DistributedBy",
+   "conf": 0.92,
+   "type": "known",
+   "year": 2017
+  },
+  {
+   "source": "M13574",
+   "target": "M174",
+   "rel": "RecordedBy",
+   "conf": 0.91,
+   "type": "known",
+   "year": 2008
+  },
+  {
+   "source": "M13574",
+   "target": "M232",
+   "rel": "DistributedBy",
+   "conf": 0.81,
+   "type": "known",
+   "year": 2008
+  },
+  {
+   "source": "M13985",
+   "target": "M10417",
+   "rel": "LyricalReferenceTo",
+   "conf": 0.83,
+   "type": "inferred",
+   "year": 2013
+  },
+  {
+   "source": "M13985",
+   "target": "M2167",
+   "rel": "InStyleOf",
+   "conf": 0.82,
+   "type": "uncertain",
+   "year": 2013
+  },
+  {
+   "source": "M13985",
+   "target": "M4781",
+   "rel": "LyricalReferenceTo",
+   "conf": 0.83,
+   "type": "inferred",
+   "year": 2013
+  },
+  {
+   "source": "M13985",
+   "target": "M827",
+   "rel": "InStyleOf",
+   "conf": 0.86,
+   "type": "uncertain",
+   "year": 2013
+  },
+  {
+   "source": "M13985",
+   "target": "M879",
+   "rel": "RecordedBy",
+   "conf": 0.85,
+   "type": "known",
+   "year": 2013
+  },
+  {
+   "source": "M14128",
+   "target": "M12821",
+   "rel": "InterpolatesFrom",
+   "conf": 0.78,
+   "type": "uncertain",
+   "year": 1994
+  },
+  {
+   "source": "M14128",
+   "target": "M218",
+   "rel": "RecordedBy",
+   "conf": 0.86,
+   "type": "known",
+   "year": 1994
+  },
+  {
+   "source": "M14128",
+   "target": "M218",
+   "rel": "DistributedBy",
+   "conf": 0.86,
+   "type": "known",
+   "year": 1994
+  },
+  {
+   "source": "M14439",
+   "target": "M4781",
+   "rel": "InterpolatesFrom",
+   "conf": 0.83,
+   "type": "uncertain",
+   "year": 2003
+  },
+  {
+   "source": "M14439",
+   "target": "M14512",
+   "rel": "LyricalReferenceTo",
+   "conf": 0.82,
+   "type": "inferred",
+   "year": 1997
+  },
+  {
+   "source": "M14439",
+   "target": "M827",
+   "rel": "LyricalReferenceTo",
+   "conf": 0.86,
+   "type": "inferred",
+   "year": 2006
+  },
+  {
+   "source": "M14439",
+   "target": "M11327",
+   "rel": "InStyleOf",
+   "conf": 0.82,
+   "type": "uncertain",
+   "year": 1998
+  },
+  {
+   "source": "M14670",
+   "target": "M218",
+   "rel": "DistributedBy",
+   "conf": 0.89,
+   "type": "known",
+   "year": 1984
+  },
+  {
+   "source": "M14720",
+   "target": "M1841",
+   "rel": "LyricalReferenceTo",
+   "conf": 0.9,
+   "type": "inferred",
+   "year": 2023
+  },
+  {
+   "source": "M14720",
+   "target": "M16524",
+   "rel": "InterpolatesFrom",
+   "conf": 0.82,
+   "type": "uncertain",
+   "year": 2023
+  },
+  {
+   "source": "M15017",
+   "target": "M1841",
+   "rel": "InStyleOf",
+   "conf": 0.89,
+   "type": "uncertain",
+   "year": 2023
+  },
+  {
+   "source": "M15017",
+   "target": "M232",
+   "rel": "DistributedBy",
+   "conf": 0.8,
+   "type": "known",
+   "year": 2023
+  },
+  {
+   "source": "M15254",
+   "target": "M11014",
+   "rel": "InterpolatesFrom",
+   "conf": 0.77,
+   "type": "uncertain",
+   "year": 2024
+  },
+  {
+   "source": "M15254",
+   "target": "M218",
+   "rel": "RecordedBy",
+   "conf": 0.85,
+   "type": "known",
+   "year": 2024
+  },
+  {
+   "source": "M15254",
+   "target": "M218",
+   "rel": "DistributedBy",
+   "conf": 0.85,
+   "type": "known",
+   "year": 2024
+  },
+  {
+   "source": "M15441",
+   "target": "M1841",
+   "rel": "InterpolatesFrom",
+   "conf": 0.89,
+   "type": "uncertain",
+   "year": 2017
+  },
+  {
+   "source": "M15760",
+   "target": "M14136",
+   "rel": "CoverOf",
+   "conf": 0.8,
+   "type": "inferred",
+   "year": 2026
+  },
+  {
+   "source": "M15760",
+   "target": "M10596",
+   "rel": "InStyleOf",
+   "conf": 0.79,
+   "type": "uncertain",
+   "year": 2026
+  },
+  {
+   "source": "M15760",
+   "target": "M13574",
+   "rel": "InStyleOf",
+   "conf": 0.8,
+   "type": "uncertain",
+   "year": 2026
+  },
+  {
+   "source": "M15760",
+   "target": "M174",
+   "rel": "RecordedBy",
+   "conf": 0.89,
+   "type": "known",
+   "year": 2026
+  },
+  {
+   "source": "M15760",
+   "target": "M174",
+   "rel": "DistributedBy",
+   "conf": 0.89,
+   "type": "known",
+   "year": 2026
+  },
+  {
+   "source": "M16457",
+   "target": "M1841",
+   "rel": "InterpolatesFrom",
+   "conf": 0.9,
+   "type": "uncertain",
+   "year": 2021
+  },
+  {
+   "source": "M16457",
+   "target": "M884",
+   "rel": "DistributedBy",
+   "conf": 0.81,
+   "type": "known",
+   "year": 2021
+  },
+  {
+   "source": "M16524",
+   "target": "M1841",
+   "rel": "InterpolatesFrom",
+   "conf": 0.92,
+   "type": "uncertain",
+   "year": 2013
+  },
+  {
+   "source": "M16978",
+   "target": "M15254",
+   "rel": "LyricalReferenceTo",
+   "conf": 0.72,
+   "type": "inferred",
+   "year": 2024
+  }
+ ]
+}
