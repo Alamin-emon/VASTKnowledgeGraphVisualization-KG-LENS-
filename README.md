@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # KG·LENS — Knowledge Graph Visual Analytics Interface
 ### VAST Challenge 2025 · Design Challenge · University of Pisa
 
